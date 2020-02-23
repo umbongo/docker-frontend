@@ -18,8 +18,9 @@ function App() {
         >
           learn react
         </a>
-      mapped volumes, used: <br></br>
-          docker run -p 3000:3000 -v /app/node_volumes -v $(pwd):/app frontend
+        mapped volumes, used: <br></br>
+        docker run -p 3000:3000 -v /app/node_volumes -v $(pwd):/app frontend <br></br>
+        AWS: http://dockerreact-env.c8mxxmezgk.us-east-1.elasticbeanstalk.com/
           </header>
     </div>
   );
